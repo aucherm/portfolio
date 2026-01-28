@@ -1,12 +1,12 @@
 
-import type { ButtonProps } from "./types/types";
+import type { ButtonProps } from "../types/types";
 
 type ButtonVariant = "primary" | "secondary" | "accent";
 type ButtonSize = "sm" | "md" | "lg" | "xl" | "responsive";
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "bg-btn-primary text-primary hover:bg-btn-primary-hover",
+    "bg-btn-primary text-primary hover:bg-btn-primary-hover bg-white",
   secondary:
     "bg-btn-secondary text-primary hover:bg-btn-secondary-hover",
   accent:

@@ -15,7 +15,7 @@ export default function NavBar() {
             <FiHome className="mr-2 p-0.001 text-2xl " />
             Accueil
           </Link>
-          <Link to="/myslef" className="flex items-center">
+          <Link to="/myself" className="flex items-center">
             <SlUserFemale className="mr-3 p-0.001 text-2xl " />
             Qui suis-je ?
           </Link>
