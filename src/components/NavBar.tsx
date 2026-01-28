@@ -7,7 +7,7 @@ import { FaRegMessage } from "react-icons/fa6";
 export default function NavBar() {
   return (
     <nav className="hidden md:block">
-      <div className="flex justify-between items-center w-full p-6">
+      <div className="flex justify-between items-center w-full p-6 font-audiowide">
         <div>
         </div>
         <div className=" flex-1 flex justify-center space-x-4 font-bold text-xl">

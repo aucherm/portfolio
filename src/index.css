@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Audiowide&family=Quicksand:wght@300..700&family=Shadows+Into+Light+Two&display=swap');
+
 @import "tailwindcss";
 
 @theme {
@@ -7,6 +8,7 @@
   --color-mint: #BEE3DB;
   --color-white: #FAF9F9;
   --color-beige: #FFD6BA;
+
 
   --font-amatic: 'Amatic SC', cursive;
   --font-audiowide: 'Audiowide', cursive;
