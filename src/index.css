@@ -8,12 +8,12 @@
   --color-mint: #BEE3DB;
   --color-white: #FAF9F9;
   --color-beige: #FFD6BA;
-
+  --color-coral: #ff7f50;
 
   --font-amatic: 'Amatic SC', cursive;
   --font-audiowide: 'Audiowide', cursive;
   --font-quicksand: 'Quicksand', sans-serif;
   --font-shadows: 'Shadows Into Light Two', cursive;
 
- 
+  --transition-duration-800: 800ms;
 }

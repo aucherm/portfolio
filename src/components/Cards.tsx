@@ -1,17 +1,26 @@
 interface CardProps {
   title: string;
-  content: string;
+  content: string[];
 }
 
-export default function Cards({ title, content }: CardProps) {
+export default function Card({ title, content }: CardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-      <h3 className="text-xl font-bold text-gray-800 mb- font-audiowide">
-        {title}
-      </h3>
-      <p className="text-gray-600 leading-relaxed">
-        {content}
-      </p>
+    <div className="w-80 h-100 font-quicksand">
+      <div className="relative w-full h-full text-center">
+        {/* Front */}
+        <div className="absolute flex flex-col w-full h-full shadow-lg text-grey rounded-lg p-4">
+          <p className="text-2xl font-audiowide font-black text-center m-0 p-8">
+            {title}
+          </p>
+          <ul className="list-disc list-inside text-left space-y-1">
+            {content.map((item, index) => (
+              <li key={index} className="text-l">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
