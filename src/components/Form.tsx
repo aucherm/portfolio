@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Form() {
   return (
-    <div className="bg-mint flex flex-col p-10">
+    <div className="bg-mint flex flex-col p-10 min-h-screen">
       <h1 className="font-audiowide text-3xl pt-6 pb-2 text-center">
         Contactez-moi
       </h1>
@@ -17,16 +17,20 @@ export default function Form() {
             className="w-64 h-64 object-cover"
           />
           <div className="flex gap-5 justify-center">
-            <button
-              type="button"
+            <a href="https://github.com/aucherm"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
             <FiGithub className="w-5 h-5 text-black" />
-            </button>
-            <button
-              type="button"
+            </a>
+            
+             
+            <a href="https://www.linkedin.com/in/maëlle-aucher-502646137/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
            <FaLinkedinIn className="w-5 h-5 text-black" />
-            </button>
+            </a>
            
           </div>
         </div>

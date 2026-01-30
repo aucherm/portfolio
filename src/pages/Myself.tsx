@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Picture from "../components/Picture";
 import Cards from "../components/Cards";
@@ -55,7 +54,6 @@ export default function Myself() {
         </div>
       </div>
       
-      <Footer />
     </>
   );
 }
