@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import Picture from "../components/picture";
+import Picture from "../components/Picture";
 import Cards from "../components/Cards";
 import About from "../components/About";
 

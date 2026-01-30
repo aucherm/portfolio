@@ -1,0 +1,77 @@
+import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
+
+
+export default function Form() {
+  return (
+    <div className="bg-mint flex flex-col p-10">
+      <h1 className="font-audiowide text-3xl pt-6 pb-2 text-center">
+        Contactez-moi
+      </h1>
+      {/* Conteneur flex pour image et formulaire côte à côte */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 flex-1 p-8">
+        <div className="flex flex-col items-center gap-4">
+          <img
+            src="/letter.png"
+            alt="illustration d'une enveloppe ouverte d'où sort une lettre avec écrit Hello !"
+            className="w-64 h-64 object-cover"
+          />
+          <div className="flex gap-5 justify-center">
+            <button
+              type="button"
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+            <FiGithub className="w-5 h-5 text-black" />
+            </button>
+            <button
+              type="button"
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+           <FaLinkedinIn className="w-5 h-5 text-black" />
+            </button>
+           
+          </div>
+        </div>
+        <form
+          action="https://formsubmit.co/aucher.maelle@gmail.com"
+          method="POST"
+          className="bg-green border-2 border-black shadow-[4px_4px_0_0_black] rounded-md p-6 flex flex-col gap-5 w-full max-w-md"
+        >
+          <div className="text-xl font-extrabold text-gray-800">
+            <span className="text-base font-semibold text-black">
+              Laissez-moi un message
+            </span>
+          </div>
+          <input
+            type="text"
+            name="lastname"
+            placeholder="Nom"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+          />
+          <input
+            type="text"
+            name="firstname"
+            placeholder="Prénom"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Adresse E-mail"
+            className="w-full h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 font-semibold text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500"
+          />
+          <textarea
+            name="message"
+            placeholder="Votre message..."
+            rows={4}
+            className="w-full rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] px-3 py-2 font-semibold text-gray-800 placeholder-gray-500 resize-none focus:outline-none focus:border-blue-500"
+          />
+          <button
+            type="submit"
+            className="mt-6 mx-auto w-32 h-10 rounded-md border-2 border-black bg-white shadow-[4px_4px_0_0_black] font-semibold text-gray-800 active:translate-x-0.75 active:translate-y-0.75 active:shadow-none"
+          >
+            Envoyer →
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}

@@ -1,9 +1,6 @@
 export default function Footer () {
     return (
 <footer id="footer" className="bg-green text-white py-8 text-center">
-<h2 className="text-xl font-bold mb-4">Contact</h2>
-<p>E-mail : aucher.maelle@gmail.com</p>
-
 
 <div className="flex justify-center gap-6 my-4">
 <a href="https://github.com/aucherm" target="_blank" rel="noreferrer">GitHub</a>
