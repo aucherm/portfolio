@@ -8,6 +8,7 @@ export default function Form() {
       <h1 className="font-audiowide text-3xl pt-6 pb-2 text-center">
         Contactez-moi
       </h1>
+
       {/* Conteneur flex pour image et formulaire côte à côte */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 flex-1 p-8">
         <div className="flex flex-col items-center gap-4">
@@ -16,7 +17,10 @@ export default function Form() {
             alt="illustration d'une enveloppe ouverte d'où sort une lettre avec écrit Hello !"
             className="w-64 h-64 object-cover"
           />
-          <div className="flex gap-5 justify-center">
+
+
+      <p className="font-semibold text-center md:w-100 ">Si mon profil vous intéresse et que vous souhaitez avoir plus de renseignements sur mon parcours et mes réalisations, vous pouvez me contacter via LinkedIn, Github, ou encore par le formulaire ci-joint</p>
+          <div className="flex gap-5 justify-center pt-6">
             <a href="https://github.com/aucherm"
               target="_blank"
               rel="noopener noreferrer"
