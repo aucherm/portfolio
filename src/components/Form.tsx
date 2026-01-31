@@ -20,7 +20,7 @@ export default function Form() {
             <a href="https://github.com/aucherm"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none">
             <FiGithub className="w-5 h-5 text-black" />
             </a>
             
@@ -28,7 +28,7 @@ export default function Form() {
             <a href="https://www.linkedin.com/in/maëlle-aucher-502646137/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+              className="w-13 h-13 rounded-full border-2 border-black bg-white shadow-[4px_4px_0_0_black] flex items-center justify-center cursor-pointer active:translate-x-0.75 active:translate-y-0.75 active:shadow-none">
            <FaLinkedinIn className="w-5 h-5 text-black" />
             </a>
            
