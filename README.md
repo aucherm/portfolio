@@ -2,7 +2,7 @@
 
 Ce dépôt contient mon **site portfolio personnel** destiné à présenter mes compétences, mes projets, et mon parcours professionnel.
 
-🎨 Voir le site en ligne : portfolio-inky-seven-19.vercel.app
+🎨 Voir le site en ligne : *portfolio-inky-seven-19.vercel.app*
 📁 Code source : https://github.com/aucherm/portfolio
 
 ---
