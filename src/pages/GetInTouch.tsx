@@ -1,12 +1,15 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-/* import Header from "../components/Header"; */
+import Form from "../components/Form";
+import BottomNav from "../components/BottomNavBar";
+
 
 export default function GetInTouch() {
   return (
     <>
-      {/* <Header /> */}
       <NavBar />
+      <BottomNav />  
+      <Form />
       <Footer />
     </>
   );

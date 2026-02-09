@@ -1,15 +1,14 @@
-import Footer from "../components/Footer";
-/* import Header from "../components/Header"; */
 import NavBar from "../components/NavBar";
 import Portfolio from "../components/Portfolio";
+import BottomNav from "../components/BottomNavBar";
 
 export default function Projects() {
   return (
     <>
-      {/* <Header /> */}
       <NavBar />
+      <BottomNav />
       <Portfolio />
-      <Footer />
+     
     </>
   );
 }

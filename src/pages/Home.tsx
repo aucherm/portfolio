@@ -1,4 +1,5 @@
 import Background from "../components/Background";
+import BottomNav from "../components/BottomNavBar";
 /* import Footer from "../components/Footer"; */
 /* import NavBar from "../components/NavBar"; */
 
@@ -8,6 +9,7 @@ export default function Home() {
    
   {/*     <NavBar /> */}
       <Background />
+      <BottomNav />
      {/*  <Footer /> */}
       
     </>
