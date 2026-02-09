@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+# Portfolio Professionnel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce dépôt contient mon **site portfolio personnel** destiné à présenter mes compétences, mes projets, et mon parcours professionnel.
 
-Currently, two official plugins are available:
+🎨 Voir le site en ligne : *portfolio-inky-seven-19.vercel.app*  
+📁 Code source : https://github.com/aucherm/portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Présentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ce portfolio a été conçu pour :
+- Présenter mes **compétences techniques**
+- Mettre en avant mes **projets réalisés**
+- Partager mon **parcours professionnel**
+- Offrir un moyen simple de **me contacter**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧠 Fonctionnalités
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Interface moderne et responsive
+- Sections dédiées :
+  - À propos
+  - Compétences techniques
+  - Projets
+  - Contact
+- Composants React réutilisables
+- Styles utilitaires avec Tailwind CSS
+- Typage strict avec TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Stack technique
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Le site est construit avec :
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ⚛️ **React** — Librairie UI
+- ⚡ **Vite** — Bundler et serveur de développement rapide
+- 🟦 **TypeScript** — Typage statique
+- 🎨 **Tailwind CSS** — Styling utilitaire et responsive
+- 📦 **npm** — Gestion des dépendances
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📂 Structure du projet
+
+```text
+portfolio/
+├── public/                  # Fichiers publics (images, favicon)
+├── src/                     # Dossier source
+│   ├── components/          # Composants UI
+│   ├── pages/               # Pages principales
+│   └── styles/              # Fichiers CSS/SCSS
+├── README.md                # Documentation
+├── package.json             # Dépendances & scripts
+└── .gitignore               # Fichiers ignorés par Git
