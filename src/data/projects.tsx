@@ -60,7 +60,7 @@ export const projects: Project[] = [
     github: "https://github.com/aucherm/projet-dataviz",
     demo: "https://projet-dataviz-nine.vercel.app/",
     date: "Décembre 2025",
-    img: "public/dataviz.png",
+    img: "/dataviz.png",
   },
  
     {
