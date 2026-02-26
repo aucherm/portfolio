@@ -1,4 +1,4 @@
-import type { ButtonProps } from "../types/types";
+import type { ButtonProps } from "../types/button";
 
 type ButtonVariant = "primary";
 type ButtonSize = "sm" | "md";

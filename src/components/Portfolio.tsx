@@ -1,15 +1,7 @@
 import { useState, type JSX } from "react"
 import { projects } from "../data/projects"
+import type { Project } from "../types/project"
 
-type Project = {
-  title: string
-  description: string
-  tech: string
-  img?: string
-  github: string
-  demo?: string
-  date: string
-}
 
 export default function Portfolio(): JSX.Element {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
