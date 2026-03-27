@@ -67,7 +67,7 @@ export default function Portfolio(): JSX.Element {
                     target="_blank"
                     rel="noreferrer"
                     className="underline text-black hover:text-mint transition-colors"
-                    onClick={(e) => e.stopPropagation()} // empêche fermeture au clic
+                    onClick={(e) => e.stopPropagation()} 
                   >
                     GitHub
                   </a>

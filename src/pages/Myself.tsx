@@ -38,8 +38,18 @@ export default function Myself() {
                 "HTML5",
                 "CSS3 & FLEXBOX/GRID",
                 "JavaScript",
+                "Typescript",
                 "Responsive Design",
                 "Accessibilité"
+              ]}
+            />
+             <Cards
+              title="COMPÉTENCES BACK-END"
+              content={[
+                "Node.js",
+                "Java",
+                "APIs REST & sécurité web",
+                "SQL & bases de données",
               ]}
             />
             <Cards
@@ -49,9 +59,10 @@ export default function Myself() {
                 "Polyvalence",
                 "Esprit créatif",
                 "Résolution de problèmes",
-                "Quick learner"
+                "Facilité d'apprentissage"
               ]}
             />
+            
           </div>
         </div>
       </div>
